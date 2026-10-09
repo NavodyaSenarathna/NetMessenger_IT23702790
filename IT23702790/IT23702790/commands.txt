@@ -1,0 +1,73 @@
+root
+cd ..
+ls
+pwd
+ls
+ps ef | grep pmon
+root
+cd
+cd ~
+mkdir practical4
+mv ~/Downloads/practical4 ~/
+cd ~/practical4
+ls -l
+make -f makeserver
+make -f makeclient
+gedit client.c
+vm client.c
+make -f makeserver
+yum install gedit
+dnf install gedit
+apt install -y gedit
+ping 8.8.8.8
+pwd
+cd Downloads/
+cd IT23702790/
+ls
+ll
+nano server_2790.c
+ll
+cd Downloads/
+ll
+cd IT23702790/
+LL
+ll
+gedit server_2790
+dnf install gedit
+vim server_2790
+nanp server_2790
+nano server_2790
+ll
+vim server_2790.c 
+cd ~/NP
+ll
+pwd
+ll
+cd Downloads/
+cd IT23702790/
+ll
+make -f Makefile_2790 
+cat Makefile_2790 
+ll
+make -f Makefile_2790 
+ls -l server_2790 client_2790
+ll
+./server_2790 
+nano server_2790.c
+ls -l server_2790
+nano server_2790.c
+./server_2790 
+pwd
+git --version
+git init
+git branch -M main
+printf "client_2790\n*.o\n" >.gitignore
+git add .
+git commit -m "Initial C client-server project"
+git config --global user.name NavodyaSenarathna
+git config --global user.email "navodyabuddhi2003@gmail.com"
+git config --global user.name
+git config --global user.email
+git add .
+git commit -m "Initial C client-server project"
+history -w
